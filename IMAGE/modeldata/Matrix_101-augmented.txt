@@ -1,0 +1,9 @@
+22/22 [==============================] - 4s 183ms/step
+                    precision    recall  f1-score   support
+
+Building (Class 0)       0.87      0.89      0.88       207
+   Other (Class 1)       0.95      0.94      0.95       483
+
+          accuracy                           0.93       690
+         macro avg       0.91      0.92      0.92       690
+      weighted avg       0.93      0.93      0.93       690

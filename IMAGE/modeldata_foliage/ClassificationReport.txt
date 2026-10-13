@@ -1,0 +1,71 @@
+--NEW--
+18/18 [==============================] - 4s 200ms/step
+                    precision    recall  f1-score   support
+
+Building (Class 0)       0.77      0.83      0.80       266
+   Other (Class 1)       0.83      0.77      0.80       287
+
+          accuracy                           0.80       553
+         macro avg       0.80      0.80      0.80       553
+      weighted avg       0.80      0.80      0.80       553
+
+
+
+--100--
+16/16 [==============================] - 3s 155ms/step
+                   precision    recall  f1-score   support
+
+Foliage (Class 0)       0.95      0.98      0.96       206
+  Other (Class 1)       0.98      0.97      0.98       306
+
+         accuracy                           0.97       512
+        macro avg       0.97      0.97      0.97       512
+     weighted avg       0.97      0.97      0.97       512
+
+
+--101--
+18/18 [==============================] - 3s 139ms/step
+                   precision    recall  f1-score   support
+
+Foliage (Class 0)       0.80      0.84      0.82       266
+  Other (Class 1)       0.84      0.80      0.82       287
+
+         accuracy                           0.82       553
+        macro avg       0.82      0.82      0.82       553
+     weighted avg       0.82      0.82      0.82       553
+
+
+--102--
+16/16 [==============================] - 3s 193ms/step
+                   precision    recall  f1-score   support
+
+Foliage (Class 0)       0.94      0.96      0.95       206
+  Other (Class 1)       0.97      0.96      0.97       306
+
+         accuracy                           0.96       512
+        macro avg       0.96      0.96      0.96       512
+     weighted avg       0.96      0.96      0.96       512
+
+
+--102+101--
+16/16 [==============================] - 3s 205ms/step
+                   precision    recall  f1-score   support
+
+Foliage (Class 0)       0.83      0.84      0.84       191
+  Other (Class 1)       0.91      0.90      0.90       319
+
+         accuracy                           0.88       510
+        macro avg       0.87      0.87      0.87       510
+     weighted avg       0.88      0.88      0.88       510
+
+
+--103--
+15/15 [==============================] - 3s 205ms/step
+                   precision    recall  f1-score   support
+
+Foliage (Class 0)       0.86      0.78      0.82       144
+  Other (Class 1)       0.91      0.94      0.92       316
+
+         accuracy                           0.89       460
+        macro avg       0.88      0.86      0.87       460
+     weighted avg       0.89      0.89      0.89       460
