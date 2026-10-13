@@ -10,13 +10,13 @@ For internal use only. Contains sensitive information pertaining to various geog
 
 # Overview
 
-The IMAGE module is designed for the purposes of creating a solution that allows for quick, efficient analysis of geographical regions and extraction of the results of said analysis.
+The IMAGE module is designed to create a solution that enables quick, efficient analysis of geographical regions and extraction of the results.
 
-This guide contains a brief description of the overall flow of the IMAGE process, from the initial model training process to predictive analysis of a large geographical region in order to generate geodata, to the extraction of analyzed geodata.
+This README briefly describes the overall flow of the IMAGE process, from initial model training to predictive analysis of a large geographical region to generate geodata, and finally to the extraction of analyzed geodata.
 
 The figure below shows the general IMAGE high-level flow diagram:
 
-![](images/image1.png)
+![](images-readme/image1.png)
 
 # Software Requirements
 
@@ -75,20 +75,20 @@ There can be two types of inputs for the solution depending upon the phase where
   - Polygon Boundary: indicates area to perform model training over
 - For Polygon Boundary, select Layer🡪Toggle Editing, and then Edit🡪Add Rectangle🡪Add Rectangle from Extent. Drag the cursor to map the sides of this rectangular polygon over the desired area for analysis.
 
-![](images/image2.png)
+![](images-readme/image2.png)
 
-![](images/image3.png)
+![](images-readme/image3.png)
 
-![](images/image4.png)
+![](images-readme/image4.png)
 
-![](images/image5.png)
+![](images-readme/image5.png)
 
 ### Bounding of area via Satellite and polygon
 
 - For Google Satellite layer, right-click and select Export🡪Save As.
 - Define the options as shown in the screenshot below, then click OK to generate a .tiff file version of the bounded map region.
 
-![](images/image6.png)
+![](images-readme/image6.png)
 
 - Notes:
   - Since 0.001 deg is 111m hence the conversions and calculations for Resolution and North, East, South, West we have used the same calculation by unitary method.
@@ -125,7 +125,7 @@ the 14
   0
   0
   0
-  0 ](images/image7.png)
+  0 ](images-readme/image7.png)
 
 - Notes:
   - To Browse and change the CRS, search for the "EPSG:3857" CRS and apply.
@@ -200,7 +200,7 @@ Date modified
 Type
 File folder
 File folder
-Size ](images/image8.png)
+Size ](images-readme/image8.png)
 
 &nbsp;
 
@@ -214,24 +214,24 @@ IMAGEPRO
 mode Idata
 Date modified
 14-06-2023 01:09
-14-06-2023 01: 10 ](images/image9.png)
+14-06-2023 01: 10 ](images-readme/image9.png)
 
 ## Algorithmic Flow for IMAGE model training + model predictions
 
 ### Dataset Creation
 
-![](images/image10.png)
+![](images-readme/image10.png)
 
 ### Model Training
 
-![](images/image11.png)![](images/image12.png)
+![](images-readme/image11.png)![](images-readme/image12.png)
 
 ### Model Predictions
 
-![](images/image13.png)
+![](images-readme/image13.png)
 
-![](images/image14.png)
+![](images-readme/image14.png)
 
 ## API Structure
 
-![](images/image15.png)
+![](images-readme/image15.png)
