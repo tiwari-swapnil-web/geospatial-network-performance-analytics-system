@@ -16,7 +16,7 @@ This README briefly describes the overall flow of the IMAGE process, from initia
 
 The figure below shows the general IMAGE high-level flow diagram:
 
-![](image_api/image_api_docs/images-readme/image1.png)
+![](image_api/image_api_docs /images-readme/image1.png)
 
 # Software Requirements
 
@@ -75,20 +75,20 @@ There can be two types of inputs for the solution depending upon the phase where
   - Polygon Boundary: indicates area to perform model training over
 - For Polygon Boundary, select Layer🡪Toggle Editing, and then Edit🡪Add Rectangle🡪Add Rectangle from Extent. Drag the cursor to map the sides of this rectangular polygon over the desired area for analysis.
 
-![](image_api/image_api_docs/images-readme/image2.png)
+![](image_api/image_api_docs /images-readme/image2.png)
 
-![](image_api/image_api_docs/images-readme/image3.png)
+![](image_api/image_api_docs /images-readme/image3.png)
 
-![](image_api/image_api_docs/images-readme/image4.png)
+![](image_api/image_api_docs /images-readme/image4.png)
 
-![](image_api/image_api_docs/images-readme/image5.png)
+![](image_api/image_api_docs /images-readme/image5.png)
 
 ### Bounding of area via Satellite and polygon
 
 - For Google Satellite layer, right-click and select Export🡪Save As.
 - Define the options as shown in the screenshot below, then click OK to generate a .tiff file version of the bounded map region.
 
-![](image_api/image_api_docs/images-readme/image6.png)
+![](image_api/image_api_docs /images-readme/image6.png)
 
 - Notes:
   - Since 0.001 deg is 111m hence the conversions and calculations for Resolution and North, East, South, West we have used the same calculation by unitary method.
@@ -125,7 +125,7 @@ the 14
   0
   0
   0
-  0 ](image_api/image_api_docs/images-readme/image7.png)
+  0 ](image_api/image_api_docs /images-readme/image7.png)
 
 - Notes:
   - To Browse and change the CRS, search for the "EPSG:3857" CRS and apply.
@@ -200,7 +200,7 @@ Date modified
 Type
 File folder
 File folder
-Size ](image_api/image_api_docs/images-readme/image8.png)
+Size ](image_api/image_api_docs /images-readme/image8.png)
 
 &nbsp;
 
@@ -214,24 +214,24 @@ IMAGEPRO
 mode Idata
 Date modified
 14-06-2023 01:09
-14-06-2023 01: 10 ](image_api/image_api_docs/images-readme/image9.png)
+14-06-2023 01: 10 ](image_api/image_api_docs /images-readme/image9.png)
 
 ## Algorithmic Flow for IMAGE model training + model predictions
 
 ### Dataset Creation
 
-![](image_api/image_api_docs/images-readme/image10.png)
+![](image_api/image_api_docs /images-readme/image10.png)
 
 ### Model Training
 
-![](image_api/image_api_docs/images-readme/image11.png)![](image_api/image_api_docs/images-readme/image12.png)
+![](image_api/image_api_docs /images-readme/image11.png)![](image_api/image_api_docs /images-readme/image12.png)
 
 ### Model Predictions
 
-![](image_api/image_api_docs/images-readme/image13.png)
+![](image_api/image_api_docs /images-readme/image13.png)
 
-![](image_api/image_api_docs/images-readme/image14.png)
+![](image_api/image_api_docs /images-readme/image14.png)
 
 ## API Structure
 
-![](image_api/image_api_docs/images-readme/image15.png)
+![](image_api/image_api_docs /images-readme/image15.png)
