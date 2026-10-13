@@ -16,7 +16,7 @@ This README briefly describes the overall flow of the IMAGE process, from initia
 
 The figure below shows the general IMAGE high-level flow diagram:
 
-![](image_api/image_api_docs/images-readme/image1.png)
+![](image_api/image_api_docs/images-readme/image001.png)
 
 # Software Requirements
 
@@ -75,20 +75,20 @@ There can be two types of inputs for the solution depending upon the phase where
   - Polygon Boundary: indicates area to perform model training over
 - For Polygon Boundary, select Layer🡪Toggle Editing, and then Edit🡪Add Rectangle🡪Add Rectangle from Extent. Drag the cursor to map the sides of this rectangular polygon over the desired area for analysis.
 
-![](image_api/image_api_docs/images-readme/image2.png)
+![](image_api/image_api_docs/images-readme/image002.png)
 
-![](image_api/image_api_docs/images-readme/image3.png)
+![](image_api/image_api_docs/images-readme/image003.png)
 
-![](image_api/image_api_docs/images-readme/image4.png)
+![](image_api/image_api_docs/images-readme/image004.png)
 
-![](image_api/image_api_docs/images-readme/image5.png)
+![](image_api/image_api_docs/images-readme/image005.png)
 
 ### Bounding of area via Satellite and polygon
 
 - For Google Satellite layer, right-click and select Export🡪Save As.
 - Define the options as shown in the screenshot below, then click OK to generate a .tiff file version of the bounded map region.
 
-![](image_api/image_api_docs/images-readme/image6.png)
+![](image_api/image_api_docs/images-readme/image006.png)
 
 - Notes:
   - Since 0.001 deg is 111m hence the conversions and calculations for Resolution and North, East, South, West we have used the same calculation by unitary method.
@@ -100,32 +100,7 @@ There can be two types of inputs for the solution depending upon the phase where
 - Select the layer generated in the previous step. Right-click and select Export🡪Save As.
 - Define the operations as shown in the screenshot below, then click OK to generate multiple smaller .tif files encompassing the bigger .tiff file contents.
 
-![「 alc 0 「 「 0 彐 1h2
-L r6n10- n
-Keep
-the 14
-
-- ~ 1000
-  g59052g , g193
-  , i n 一 P501437
-  0
-  — 3330337 E73
-- 0 71192
-  26013 51
-  K22 1h2 0
-  50 : 舜
-- t 「 R53 EPSG 857f21h2
-  0
-  1223X183 一 h 523n 53 n
-  10 0 new
-  Pyoson 3 & u : 0 TO
-  Ch k 「 「 20
-  「 「 h Clickthe
-  6n0 = rmge ; eofAOI
-  0
-  0
-  0
-  0 ](image_api/image_api_docs/images-readme/image7.png)
+![](image_api/image_api_docs/images-readme/image007.png)
 
 - Notes:
   - To Browse and change the CRS, search for the "EPSG:3857" CRS and apply.
@@ -134,7 +109,7 @@ The above steps result in a folder with \[1000 pixel X 1000 pixel\] size image c
 
 ## Process Flow for Building Data Preparation
 
-This section discusses the steps involved in training data creation and simplistic way how for data annotation. The training data that is used for model training is a combination of 50mX50m images (approx 80 % images) and 100mX100m images (approx 20 % images). To create these images from the images created earlier follow the below steps.
+This section discusses the steps involved in training data creation and a simple way how for data annotation. The training data that is used for model training is a combination of 50mX50m images (approx 80 % images) and 100 m x 100 m images (approx 20 % images). To create these images from the images created earlier, follow the steps below.
 
 ### Assigning variables in code "imageObjectDetection-DataCollector"
 
@@ -187,51 +162,30 @@ Upon completion of the training data preparation steps above, following folders 
 
 **Vegetation/ Foliage output folder**
 
-![This PC New Volume
-Name
-a Other
-a
-vegetation
-IMAGEPRO
-modeldata_foliage
-Date modified
-16-06-2023 DO: 16
-16-06-2023 DO: 18
-Type
-File folder
-File folder
-Size ](image_api/image_api_docs/images-readme/image8.png)
+![](image_api/image_api_docs/images-readme/image008.png)
 
 &nbsp;
 
 **Building output folder**
 
-![This PC New Volume
-Name
-building
-n Other
-IMAGEPRO
-mode Idata
-Date modified
-14-06-2023 01:09
-14-06-2023 01: 10 ](image_api/image_api_docs/images-readme/image9.png)
+![](image_api/image_api_docs/images-readme/image009.png)
 
 ## Algorithmic Flow for IMAGE model training + model predictions
 
 ### Dataset Creation
 
-![](image_api/image_api_docs/images-readme/image10.png)
+![](image_api/image_api_docs/images-readme/image010.png)
 
 ### Model Training
 
-![](image_api/image_api_docs/images-readme/image11.png)![](image_api/image_api_docs/images-readme/image12.png)
+![](image_api/image_api_docs/images-readme/image011.png)![](image_api/image_api_docs/images-readme/image012.png)
 
 ### Model Predictions
 
-![](image_api/image_api_docs/images-readme/image13.png)
+![](image_api/image_api_docs/images-readme/image013.png)
 
-![](image_api/image_api_docs/images-readme/image14.png)
+![](image_api/image_api_docs/images-readme/image014.png)
 
 ## API Structure
 
-![](image_api/image_api_docs/images-readme/image15.png)
+![](image_api/image_api_docs/images-readme/image015.png)
